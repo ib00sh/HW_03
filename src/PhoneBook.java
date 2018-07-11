@@ -16,7 +16,7 @@ public class PhoneBook {
 
     public void findString(String name) {
         if( hm.containsKey(name)){
-            System.out.println("Имя:" + hm.get(name));
+            System.out.println(hm.get(name));
         }
         else {
             System.out.println("Данная фамилия отсутсвует");
